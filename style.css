@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "consola";
+    src: url("./assets/fonts/CONSOLAB.TTF");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    height: 10vh;
+    background: rgb(47, 47, 48);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .icon-nav {
+    width: 90px;
+    margin-left: 30px;
+}
+
+body {
+    background: rgb(12, 10, 10);
+}
+
+h1 {
+    color: #ffff;
+    font-size: 2.6rem;
+    font-family: consola;
+    margin: 2rem 2rem;
+    text-shadow: 1px 2px 4px rgb(180, 99, 99);
+    -webkit-text-fill-color: #ffff;
+}
+
+h1:hover {
+    color: #ffff;
+    font-size: 2.6rem;
+    font-family: consola;
+    margin: 2rem 2rem;
+    text-shadow: 2px 2px 4px rgb(146, 146, 146);
+    -webkit-text-fill-color: #ffff;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1rem));
+    gap: 2.6rem;
+    text-align: left;
+    justify-content: left;
+    margin: 2rem 2rem;
+   
+}
+
+.box {
+    background: rgb(233, 233, 233);
+    padding: 3.8rem 1rem 1rem 1.4rem;
+    border-radius: 8px;    
+    border: 2px solid #ffff;
+}
+
+.box:hover {
+    background: rgba(255, 255, 255, 0.767);
+    padding: 3.8rem 1rem 1rem 1.4rem;
+    border-radius: 8px;    
+    border: 2px solid #ffff;
+}
+
+
+.box img {
+    width: 20%;
+}
