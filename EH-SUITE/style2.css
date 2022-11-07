@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(46, 46, 46, 0.986);
+}
+
+nav {
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+    background-color: rgb(95, 95, 95);
+}
+
+nav .logo {
+    padding-left: 30px;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-right: 28px;
+    color: #ffff;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    padding-right: 32px;
+    color: rgb(12, 12, 12);
+}
+
+.img-virustotal {
+    width: 43%;
+    margin: .6rem 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-mxtb {
+    width: 33%;
+    margin: 1.2rem 1rem;
+}
+
+.img-netcraft {
+    width: 50%;
+    margin: .8rem 1rem;
+}
+
+section {
+    margin-top: 2.6rem;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h2 {
+    color: #ffff;
+    font-size: 2rem;
+}
+
+section div {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    background: rgba(0, 0, 0, 0.671);
+    width:400px;
+    padding : 10px 8px;
+    font-size: 14px;
+    color: #ffff;
+    border: 2.3px solid #ffff;
+    margin: 24px;
+    border-radius:10px;
+}
+
+
+button {
+    background: rgba(255, 255, 255, 0.856);
+    padding: 5px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    border: 2px solid rgb(3, 3, 3);
+}
+
+
+button:hover {
+    background: rgb(24, 24, 24);
+    padding: 5px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border:2px solid #ffff;
+}
+/* finish */
+
+
+/*this is virus total style */
+/* start virus total */
+
+.myTabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.myTabs input[type="radio"] {
+    display: none;
+}
+
+.myTabs label {
+    padding: 25px;
+    font-weight: bolder;
+    background: #727272;
+    color: #ffff;
+    
+}
+
+.myTabs .tab {
+    width: 100%;
+    padding: 20px;
+    /* background: #ffff; */
+    order: 1;
+    display: none;
+    border: 4px solid #ffff;
+    border-radius: 0 0 6px 6px; 
+    color: #ffff;
+}
+
+.myTabs .ta h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.myTabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.myTabs input[type="radio"]:checked + label {
+    /* background: #ffff; */
+    border: 4px solid #ffff;
+    
+}
+
+.file-input {
+    padding: 10px 10px;
+    background:#727272;
+    border-radius: 6px;
+    margin: 10px;
+    width: 92%;
+    font-size: 14px;
+}
+
+.btn-virus {
+    background: #727272;
+    padding: 5px 12px;
+    width: 30%;
+    color: #ffff;
+    font-size: 16px;
+    margin-top: .8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    float: right;
+}
+
+
+.btn-virus:hover {
+    background: #ffffff;
+    padding: 5px 12px;
+    width: 30%;
+    color: rgb(22, 22, 22);
+    font-size: 16px;
+    margin-top: .8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    float: right;
+}

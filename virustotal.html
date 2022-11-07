@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirusTotal</title>
+    <link rel="stylesheet" href="/style2.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <p>VIRUSTOTAL</p>
+            </div>
+             
+        </nav>
+    </header>
+    <section>
+
+        <img src="./assets/icons++/VirusTotal.png" class="img-virustotal" alt="">
+    </section>
+       
+    <div class="myTabs">
+        <input type="radio" id ="tabfree" name = "mytabs" checked="checked">
+        <label for="tabfree">FILE</label>
+        <div class="tab">
+            <h2>FILE</h2>
+            <!-- <p>helter ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, quo! Voluptas, quidem.</p> -->
+            <input type="file" class="file-input">
+            <button type="submit" class="btn-virus">Submit</button>
+        </div>
+
+        <input type="radio" id ="tabbuy" name = "mytabs" checked="checked">
+        <label for="tabbuy">URL</label>
+        <div class="tab">
+            <h2>URL</h2>
+            <input name="net" id="tools" class="file-input" placeholder="URL">
+            <button type="submit" class="btn-virus">Sumbit</button>
+        </div>
+
+        <input type="radio" id ="tabrent" name = "mytabs" checked="checked">
+        <label for="tabrent">SEARCH</label>
+        <div class="tab">
+            <h2>SEARCH</h2>
+            <input name="net" id="tools" class="file-input" placeholder="Search">
+            <button type="submit" class="btn-virus">Sumbit</button>
+        </div>
+    </div>
+</body>
+</html>

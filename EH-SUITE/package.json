@@ -1,0 +1,27 @@
+{
+  "name": "cyber-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hurih-kamindo/cyber-lab-ui.git"
+  },
+  "author": "kamindo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hurih-kamindo/cyber-lab-ui/issues"
+  },
+  "homepage": "https://github.com/hurih-kamindo/cyber-lab-ui#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mxtoolbox-connect": "^2.1.0",
+    "mysql": "^2.18.1",
+    "pg": "^8.8.0",
+    "xterm": "^5.1.0-beta.35",
+    "xterm-addon-web-links": "^0.7.0"
+  }
+}
